@@ -71,6 +71,15 @@ The project explores questions like:
 * Which skills appear most frequently in job descriptions?
 * Is working on-site or remotly more lucrative?
 
+## Limitations
+
+This analysis has some limitations:
+
+* A sample of **1,000 job postings** was used instead of the full dataset.
+* Many job postings did not include salary information.
+* Some skills may not have been extracted perfectly because they were identified from job descriptions.
+* The results represent the selected sample and may not reflect the entire Data Analyst job market.
+
 ## Conclusion
 
 This project provides an overview of the Data Analyst job market by analyzing job postings data and extracting useful information about salaries, skills, and job opportunities.
