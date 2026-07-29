@@ -1,85 +1,126 @@
-# Data Analyst Job Postings Analysis
+#  Data Analyst Job Postings Analysis
 
-## Overview
+##  Project Overview
 
-This project analyzes Data Analyst job postings to understand the job market, salary trends, required skills, and hiring patterns.
+This project analyzes **Data Analyst job postings** to explore current hiring trends, required technical skills, work arrangements, salary information, and job market insights.
 
-The main goal of this project is to clean the dataset, explore the data, and find useful insights about Data Analyst jobs.
+The project follows a complete data analysis workflow, including data cleaning, feature engineering, exploratory data analysis (EDA), and data visualization using Python.
 
-## Dataset
+---
 
-The dataset used in this project is **Data Analyst Job Postings** from Kaggle.
-Dataset Link:
+##  Dataset
+
+* **Source:** Kaggle
+* Dataset Link: 
 [Data Analyst Job Postings Dataset](https://www.kaggle.com/datasets/lukebarousse/data-analyst-job-postings-google-search)
 
-The dataset contains job advertisements with information about:
+The original dataset contains real-world job postings collected from Google Jobs.
 
-* Job titles
-* Companies
-* Locations
-* Salary information
-* Job descriptions
-* Required skills
+---
 
-For this project, a sample of **1,000 job postings** was selected from the original dataset to perform the analysis.
+##  Project Objectives
 
-## Data Cleaning
+* Clean and prepare raw job posting data.
+* Analyze the most common job titles.
+* Identify the most requested technical skills.
+* Explore work arrangements (Remote vs On-site).
+* Analyze salary information where available.
+* Generate meaningful insights about the Data Analyst job market.
 
-The dataset required several cleaning steps before analysis:
+---
 
-* Removed unnecessary columns
-* Handled missing values
-* Cleaned location and work type information
-* Processed salary columns
-* Extracted and analyzed skills from job descriptions
-* Created new useful columns:
-
-  * `work_type`
-  * `skills_count`
-  * `salary_category`
-
-## Exploratory Data Analysis
-
-The analysis focuses on:
-
-* Most common Data Analyst job titles
-* Companies hiring Data Analysts
-* Job locations distribution
-* Remote vs On-site jobs
-* Salary analysis
-* Most required skills
-* Relationship between skills and salaries
-
-## Tools & Libraries
+##  Technologies Used
 
 * Python
 * Pandas
 * NumPy
 * Matplotlib
 * Seaborn
-* Plotly Express 
-* Jupyter Notebook
+* Plotly
+* Regular Expressions (Regex)
 
-## Key Insights
+---
 
-The project explores questions like:
+##  Data Cleaning
 
-* Which companies have the most Data Analyst job postings?
-* What are the most common required skills?
-* How are salaries distributed?
-* Are remote jobs common in the Data Analyst field?
-* Which skills appear most frequently in job descriptions?
-* Is working on-site or remotly more lucrative?
+The dataset was cleaned before analysis by:
 
-## Limitations
+* Removing unnecessary columns.
+* Handling missing values where appropriate.
+* Removing duplicate records.
+* Standardizing categorical values.
+* Preparing salary-related information.
+* Creating a separate cleaned dataset for analysis.
 
-This analysis has some limitations:
+---
 
-* A sample of **1,000 job postings** was used instead of the full dataset.
+##  Feature Engineering
+
+Several new features were created to improve the analysis, including:
+
+* Main job role categorization.
+* Technical skill extraction.
+* Skill count analysis.
+* Additional features derived from the original dataset using Python and Regular Expressions.
+
+---
+
+##  Exploratory Data Analysis (EDA)
+
+The project explores several aspects of the job market, including:
+
+* Most common job titles
+* Most requested technical skills
+* Most common job locations
+* Remote vs On-site job distribution
+* Salary distribution
+* Salary comparison across work arrangements
+
+Visualizations were created using:
+
+* Matplotlib
+* Seaborn
+* Plotly
+
+---
+
+##  Key Findings
+
+Some of the insights obtained from the analysis include:
+
+* SQL appeared among the most frequently requested technical skills.
+* Python and Excel were also highly demanded across many job postings.
+* On-site positions were more common than remote positions in the analyzed dataset.
+* Salary information was available for only a subset of job postings, limiting salary-related analysis.
+
+---
+
+##  Limitations
+
 * Many job postings did not include salary information.
-* Some skills may not have been extracted perfectly because they were identified from job descriptions.
-* The analysis was performed on the first 1,000 records of the dataset.
+* Some fields contained missing values.
+* The dataset represents Google Job Search results and may not reflect the entire job market.
+* Results depend on the available data collected in the dataset.
 
-## Conclusion
+---
 
-This project provides an overview of the Data Analyst job market by analyzing job postings data and extracting useful information about salaries, skills, and job opportunities.
+##  Repository Structure
+
+```text
+├── Job_Postings_Project.ipynb
+├── cleaned_job_postings.csv
+├── requirements.txt 
+└── README.md
+```
+
+---
+
+##  How to Run
+
+1. Clone the repository.
+2. Install the required Python libraries.
+3. Open the Jupyter Notebook.
+4. Run the notebook cells in order.
+
+---
+
