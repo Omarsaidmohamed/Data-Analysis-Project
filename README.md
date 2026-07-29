@@ -78,7 +78,7 @@ This analysis has some limitations:
 * A sample of **1,000 job postings** was used instead of the full dataset.
 * Many job postings did not include salary information.
 * Some skills may not have been extracted perfectly because they were identified from job descriptions.
-* The results represent the selected sample and may not reflect the entire Data Analyst job market.
+* The analysis was performed on the first 1,000 records of the dataset.
 
 ## Conclusion
 
