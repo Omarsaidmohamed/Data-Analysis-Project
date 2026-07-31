@@ -4,7 +4,7 @@
 
 This project analyzes **Data Analyst job postings** to explore current hiring trends, required technical skills, work arrangements, salary information, and job market insights.
 
-The project follows a complete data analysis workflow, including data cleaning, feature engineering, exploratory data analysis (EDA), and data visualization using Python.
+The project follows a complete data analysis workflow, including data cleaning, feature engineering, exploratory data analysis (EDA) , data visualization , and an interactive Streamlit dashboard.
 
 ---
 
@@ -38,6 +38,7 @@ The original dataset contains real-world job postings collected from Google Jobs
 * Seaborn
 * Plotly
 * Regular Expressions (Regex)
+* Streamlit
 
 ---
 
@@ -104,13 +105,31 @@ Some of the insights obtained from the analysis include:
 
 ---
 
+##  Streamlit Dashboard
+
+An interactive dashboard was built using Streamlit to explore the cleaned dataset.
+
+The dashboard includes:
+
+- KPI Cards
+- Interactive charts
+- Data preview
+- Job Analysis tab
+- Salary Analysis tab
+- Skills Analysis tab
+
+---
+
 ##  Repository Structure
 
 ```text
+├── app.py
 ├── Job_Postings_Project.ipynb
 ├── cleaned_job_postings.csv
-├── requirements.txt 
-└── README.md
+├── requirements.txt
+├── README.md
+└── .gitignore
+
 ```
 
 ---
@@ -118,9 +137,28 @@ Some of the insights obtained from the analysis include:
 ##  How to Run
 
 1. Clone the repository.
-2. Install the required Python libraries.
-3. Open the Jupyter Notebook.
-4. Run the notebook cells in order.
 
+```bash
+git clone https://github.com/Omarsaidmohamed/Data-Analysis-Project.git
+```
+
+2. Install the required libraries.
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Run the Streamlit dashboard.
+
+```bash
+streamlit run app.py
+```
+
+4. (Optional) Open the Jupyter Notebook to view the full analysis.
 ---
 
+## 👤 Author
+
+**Omar Said Mohamed**
+
+Computer Science & Information Systems Student
