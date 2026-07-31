@@ -1,0 +1,5 @@
+.AI/
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+raw_data.csv
