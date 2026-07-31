@@ -157,7 +157,7 @@ streamlit run app.py
 4. (Optional) Open the Jupyter Notebook to view the full analysis.
 ---
 
-## 👤 Author
+## Author
 
 **Omar Said Mohamed**
 
